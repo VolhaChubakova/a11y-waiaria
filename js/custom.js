@@ -40,7 +40,7 @@ function toggleTab(selectedNav, targetId) {
 function wishGoodDay() {
   var textForUser = document.getElementById('last_news');
   textForUser.innerHTML='We have got interesting news for you';
-  setTimeout(wishGoodDay, 1000);
+  setTimeout(wishGoodDay, 60000);
 }
 
 wishGoodDay();
